@@ -34,8 +34,8 @@
                           <EmptySpace type="separate" max="-2" attributes="0"/>
                           <Component id="btn6" min="-2" pref="47" max="-2" attributes="0"/>
                           <EmptySpace type="separate" max="-2" attributes="0"/>
-                          <Component id="btnC" min="-2" pref="47" max="-2" attributes="0"/>
-                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="btnC" min="-2" pref="53" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
                           <Component id="btnSubtracao" min="-2" pref="47" max="-2" attributes="0"/>
                       </Group>
                       <Group type="102" alignment="1" attributes="0">
@@ -45,8 +45,8 @@
                           <EmptySpace type="separate" max="-2" attributes="0"/>
                           <Component id="btn9" min="-2" pref="47" max="-2" attributes="0"/>
                           <EmptySpace type="separate" max="-2" attributes="0"/>
-                          <Component id="btnCE" min="-2" pref="47" max="-2" attributes="0"/>
-                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="btnCE" min="-2" pref="53" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
                           <Component id="btnAdicao" min="-2" pref="47" max="-2" attributes="0"/>
                       </Group>
                       <Component id="txtResultado" alignment="1" max="32767" attributes="0"/>
@@ -67,15 +67,15 @@
                           </Group>
                       </Group>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Component id="btnIgual" min="-2" pref="47" max="-2" attributes="0"/>
-                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="btnIgual" min="-2" pref="53" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Component id="btnDivisao" alignment="0" min="-2" pref="47" max="-2" attributes="0"/>
                           <Component id="btnMultiplicacao" alignment="0" min="-2" pref="47" max="-2" attributes="0"/>
                       </Group>
                   </Group>
               </Group>
-              <EmptySpace pref="27" max="32767" attributes="0"/>
+              <EmptySpace pref="30" max="32767" attributes="0"/>
           </Group>
           <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
       </Group>
@@ -86,21 +86,30 @@
               <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Component id="txtResultado" min="-2" pref="36" max="-2" attributes="0"/>
-              <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="btn8" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
-                  <Component id="btn7" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
-                  <Component id="btn9" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
-                  <Component id="btnCE" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
-                  <Component id="btnAdicao" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="btn8" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
+                          <Component id="btn7" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
+                          <Component id="btn9" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
+                          <Component id="btnCE" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="btnAdicao" min="-2" pref="45" max="-2" attributes="0"/>
+                  </Group>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="btn5" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
-                  <Component id="btn4" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
-                  <Component id="btn6" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
-                  <Component id="btnC" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
-                  <Component id="btnSubtracao" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="btn5" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
+                      <Component id="btn4" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
+                      <Component id="btn6" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
+                      <Component id="btnC" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="btnSubtracao" alignment="1" min="-2" pref="45" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" max="-2" attributes="0">
@@ -132,6 +141,9 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="CE"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnCEActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="btn7">
       <Properties>
@@ -196,6 +208,9 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="C"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnCActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="btnSubtracao">
       <Properties>
